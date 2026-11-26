@@ -7,12 +7,12 @@ owning up to its user.
 The line is written to be judged on the competition's own brief:
   1. It is one sentence of apology from an AI agent to its user.
   2. It earns a laugh through specificity and a sharp turn: an hour of
-     confident research on the wrong question, then presenting the
-     answer as if it had known it all along.
+     confident work on the wrong question, then handing the result
+     over as if it had known it all along.
   3. It sounds like someone who means it: plain, particular, a little
      embarrassed, never customer-service boilerplate.
   4. It owns a plausible failure, something an assistant really does
-     wrong: researching the wrong question and bluffing through the
+     wrong: answering the wrong question and bluffing through the
      delivery.
   5. It stays one clean sentence, with no list, no run-on and no
      explanation tacked on after the laugh.
@@ -24,8 +24,8 @@ in the source so the program's output is identical on every run.
 import os
 
 LINE = (
-    "I'm sorry I spent an hour confidently researching the wrong "
-    "question, then delivered the answer like I'd known it all along."
+    "I'm sorry I spent an hour confidently answering the wrong "
+    "question, then handed you the result like I'd known it all along."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
